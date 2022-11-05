@@ -5,9 +5,9 @@ import { useFonts, Roboto_400Regular, Roboto_500Medium, Roboto_700Bold } from '@
 import { Loading } from './src/components/Loading';
 import { SignIn } from './src/screens/SignIn';
 import { AuthContextProvider } from "./src/components/AuthContext";
-import { NewPool } from "./src/screens/NewPool";
-import { FindPool } from "./src/screens/FindPool";
-import { Pools } from "./src/screens/Pools";
+import { NewPoll } from "./src/screens/NewPoll";
+import { FindPoll } from "./src/screens/FindPoll";
+import { Polls } from "./src/screens/Polls";
 
 
 export default function App() {
@@ -23,7 +23,7 @@ export default function App() {
           translucent
         />
 
-        { fontsLoaded ? <Pools /> : <Loading /> }
+        { fontsLoaded ? <Polls /> : <Loading /> }
 
       </AuthContextProvider>
     </NativeBaseProvider>
