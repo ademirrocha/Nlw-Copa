@@ -23,7 +23,7 @@ export default function App() {
           translucent
         />
 
-        { fontsLoaded ? <Polls /> : <Loading /> }
+        { fontsLoaded ? <SignIn /> : <Loading /> }
 
       </AuthContextProvider>
     </NativeBaseProvider>
