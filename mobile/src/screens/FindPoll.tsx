@@ -20,11 +20,11 @@ export function FindPoll() {
             setIsLoading(true)
 
             if(!code.trim()){
-                return alertError(toast, 'Informe o código do bolão')
+                return alertWarning(toast, 'Informe o código do bolão')
             }
     
             if(code.trim().length != 7){
-                return alertError(toast, 'O código do bolão deve ter 7 caracteres')
+                return alertWarning(toast, 'O código do bolão deve ter 7 caracteres')
             }
 
             await api.post('/polls/join', { code });
