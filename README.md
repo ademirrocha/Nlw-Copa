@@ -13,7 +13,7 @@
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
-   <a href="https://github.com/ademirrocha/Nlw-Copa/stargazers">
+   <a href="https://github.com/ademirrocha/Nlw-Copa/">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/ademirrocha/Nlw-Copa?style=social">
   </a>
 </p>
@@ -164,7 +164,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[PostCSS](https://postcss.org/)**
 -   **[Axios](https://github.com/axios/axios)**
 
-> Veja o arquivo  [package.json](https://github.com/ademirrocha/Nlw-Copa/web/package.json)
+> Veja o arquivo  [package.json](https://github.com/ademirrocha/Nlw-Copa/blob/main/web/package.json)
 
 #### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
 
@@ -174,7 +174,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Prisma](https://www.prisma.io/)**
 -   **[SQLite](https://github.com/mapbox/node-sqlite3)**
 
-> Veja o arquivo  [package.json](https://github.com/ademirrocha/Nlw-Copa/server/package.json)
+> Veja o arquivo  [package.json](https://github.com/ademirrocha/Nlw-Copa/blob/main/server/package.json)
 
 #### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
  
@@ -193,7 +193,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[DayJS](https://day.js.org/)**
 -   **[dotENV](https://www.npmjs.com/package/dotenv)**
 
-> Veja o arquivo  [package.json](https://github.com/ademirrocha/Nlw-Copa/mobile/package.json)
+> Veja o arquivo  [package.json](https://github.com/ademirrocha/Nlw-Copa/blob/main/mobile/package.json)
 
 ---
 <!-- 
